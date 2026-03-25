@@ -123,3 +123,6 @@ See [GETTING_STARTED.md](GETTING_STARTED.md) for training commands and all CLI f
 Inference runs both Model_1 and Model_2 sequentially: loads checkpoints from `checkpoints/latest/`, warm-starts on 10 timesteps of history, autoregressively predicts remaining steps, denormalizes, and writes a Kaggle-format CSV.
 
 See [GETTING_STARTED.md](GETTING_STARTED.md) for inference commands and flags.
+
+
+Special thanks to Professor Owen Lewis for sponsoring this project and providing access to The UNM Center for Advanced Research Computing resources used in this research.
